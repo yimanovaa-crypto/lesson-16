@@ -1,0 +1,31 @@
+.box1{
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    border-radius: 10px;
+}
+.text{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    margin: 0 auto;
+}
+.title{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 25px;
+}
+.dream{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    margin: 0 auto;
+}
+.clone{
+    width: 300px;
+    height: 200px;
+    background-color: brown;
+     
+
+}
