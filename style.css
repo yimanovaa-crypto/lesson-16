@@ -1,4 +1,4 @@
-.box1{
+/* .box1{
     width: 300px;
     height: 200px;
     background-color: red;
@@ -94,6 +94,129 @@
     box-shadow: 0px 10px 50px rgb(153, 17, 17);
 }
 
+
+} */
+
+
+
+/* body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.file {
+    width: 1200px;
+    height: 800px;
+    border: 2px dotted red;
+}
+
+
+.card {
+  background: #fff;
+  width: 280px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 16px;
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.card-title {
+  margin: 12px 0 6px;
+  font-size: 18px;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #555;
+}
+
+.card-btn {
+  margin-top: 12px;
+  padding: 8px 16px;
+  border: none;
+  background: #3498db;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card-btn:hover {
+  background: #2980b9;
+}
+.card1 {
+  background: #fff;
+  width: 280px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 16px;
+} */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 16px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.card-title {
+  margin: 12px 0 6px;
+  font-size: 18px;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #555;
+}
+
+.card-btn {
+  margin-top: 12px;
+  padding: 8px 16px;
+  border: none;
+  background: #3498db;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card-btn:hover {
+  background: #2980b9;
+} 
+
 .contant:hover {
     background-color: rgb(213, 1, 86);
     transform: scale(1.5);
@@ -148,3 +271,4 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
